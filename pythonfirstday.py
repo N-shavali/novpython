@@ -1,3 +1,5 @@
-amt=int(input("enter total money :"))
-tax=amt*(18/100)
-print("tax amount",tax)
+for x in range(10):
+    if x%2==0:
+        print(x,"Even")
+    else:
+        print(x,"Odd")
